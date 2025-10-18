@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root{
+    font-family: 'inter', sans-serif;
+}
+
+/* index.css */
+body {
+  background-color: #000000; 
+  color: #ffffff;            
+}
+
+section {
+  padding: 100px 20px;
+}
+
+section:nth-child(even) {
+  background-color: #0a1f3d; /* Dark blue for alternating sections */
+}
+
+section:nth-child(odd) {
+  background-color: #000000; /* Black */
+}
+
+a:hover {
+  color: #1e90ff; /* Bright blue accent */
+}
